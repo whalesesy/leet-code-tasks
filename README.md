@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/whalesesy/leet-code-tasks/tree/master/0001-two-sum) |
+| [1552-build-an-array-with-stack-operations](https://github.com/whalesesy/leet-code-tasks/tree/master/1552-build-an-array-with-stack-operations) |
 ## Hash Table
 |  |
 | ------- |
@@ -13,4 +14,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/whalesesy/leet-code-tasks/tree/master/0007-reverse-integer) |
+## Stack
+|  |
+| ------- |
+| [1552-build-an-array-with-stack-operations](https://github.com/whalesesy/leet-code-tasks/tree/master/1552-build-an-array-with-stack-operations) |
+## Simulation
+|  |
+| ------- |
+| [1552-build-an-array-with-stack-operations](https://github.com/whalesesy/leet-code-tasks/tree/master/1552-build-an-array-with-stack-operations) |
 <!---LeetCode Topics End-->
