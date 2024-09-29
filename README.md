@@ -17,9 +17,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/whalesesy/leet-code-tasks/tree/master/0225-implement-stack-using-queues) |
 | [1552-build-an-array-with-stack-operations](https://github.com/whalesesy/leet-code-tasks/tree/master/1552-build-an-array-with-stack-operations) |
 ## Simulation
 |  |
 | ------- |
 | [1552-build-an-array-with-stack-operations](https://github.com/whalesesy/leet-code-tasks/tree/master/1552-build-an-array-with-stack-operations) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/whalesesy/leet-code-tasks/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/whalesesy/leet-code-tasks/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
