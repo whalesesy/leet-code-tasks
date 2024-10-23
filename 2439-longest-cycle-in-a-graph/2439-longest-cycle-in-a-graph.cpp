@@ -1,31 +1,54 @@
 class Solution {
 public:
-    void dfs(int node, vector<int>& dist_node, vector<bool> & visited, vector<int>& edges, int distance,int &ans, vector<bool> & extra ){
-        if(node!=-1){
-          if(!visited[node]){
-              visited[node]=true;
-              extra[node]=true;
-              dist_node[node]=distance;
-              dfs(edges[node],dist_node,visited,edges,distance+1,ans,extra);
-          }
-          else if(extra[node])
-               {   
-                   ans = max(ans, distance - dist_node[node]);
-               }   
-               extra[node]  = false;
-        }
-       
-    }
     int longestCycle(vector<int>& edges) {
-        vector<int> dist_node(edges.size(),0);
-        vector<bool>extra(edges.size(),false);
-        vector<bool>visited(edges.size(),false);
-        int ans=-1;
-        for(int i=0;i<edges.size();i++){
-            if(!visited[i]){
-                dfs(i,dist_node,visited,edges,0,ans,extra);
+         int n = edges.size();
+        vector<int> inDegree(n, 0);
+
+        // Step 1: Compute in-degrees
+        for (int i = 0; i < n; ++i) {
+            if (edges[i] != -1) {
+                inDegree[edges[i]]++;
+            }
+        }
+
+        // Step 2: Kahn's Algorithm to remove acyclic nodes
+        queue<int> q;
+        for (int i = 0; i < n; ++i) {
+            if (inDegree[i] == 0) {
+                q.push(i);
+            }
+        }
+
+        // Remove nodes with in-degree zero iteratively
+        while (!q.empty()) {
+            int u = q.front();
+            q.pop();
+            int v = edges[u];
+            if (v != -1) {
+                inDegree[v]--;
+                if (inDegree[v] == 0) {
+                    q.push(v);
+                }
+            }
+        }
+
+        // Step 3 and 4: Find cycles and compute their lengths
+        vector<bool> visited(n, false);
+        int ans = -1;
+
+        for (int i = 0; i < n; ++i) {
+            if (inDegree[i] > 0 && !visited[i]) {
+                int current = i;
+                int cycleLength = 0;
+                while (!visited[current]) {
+                    visited[current] = true;
+                    current = edges[current];
+                    cycleLength++;
+                }
+                ans = max(ans, cycleLength);
             }
         }
         return ans;
+      
     }
 };
