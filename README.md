@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/whalesesy/leet-code-tasks/tree/master/0001-two-sum) |
 | [1552-build-an-array-with-stack-operations](https://github.com/whalesesy/leet-code-tasks/tree/master/1552-build-an-array-with-stack-operations) |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/2189-maximum-path-quality-of-a-graph) |
 ## Hash Table
 |  |
 | ------- |
@@ -67,4 +68,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/whalesesy/leet-code-tasks/tree/master/0124-binary-tree-maximum-path-sum) |
+## Backtracking
+|  |
+| ------- |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/2189-maximum-path-quality-of-a-graph) |
+## Graph
+|  |
+| ------- |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/2189-maximum-path-quality-of-a-graph) |
 <!---LeetCode Topics End-->
