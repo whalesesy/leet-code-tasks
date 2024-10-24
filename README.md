@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/0133-clone-graph) |
+| [1916-find-center-of-star-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/1916-find-center-of-star-graph) |
 | [2189-maximum-path-quality-of-a-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/2189-maximum-path-quality-of-a-graph) |
 | [2439-longest-cycle-in-a-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/2439-longest-cycle-in-a-graph) |
 ## Topological Sort
