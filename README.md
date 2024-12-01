@@ -7,11 +7,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/whalesesy/leet-code-tasks/tree/master/0001-two-sum) |
 | [1552-build-an-array-with-stack-operations](https://github.com/whalesesy/leet-code-tasks/tree/master/1552-build-an-array-with-stack-operations) |
 | [2189-maximum-path-quality-of-a-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/2189-maximum-path-quality-of-a-graph) |
+| [3034-points-that-intersect-with-cars](https://github.com/whalesesy/leet-code-tasks/tree/master/3034-points-that-intersect-with-cars) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/whalesesy/leet-code-tasks/tree/master/0001-two-sum) |
 | [0133-clone-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/0133-clone-graph) |
+| [3034-points-that-intersect-with-cars](https://github.com/whalesesy/leet-code-tasks/tree/master/3034-points-that-intersect-with-cars) |
 ## Math
 |  |
 | ------- |
@@ -90,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/whalesesy/leet-code-tasks/tree/master/0133-clone-graph) |
+## Prefix Sum
+|  |
+| ------- |
+| [3034-points-that-intersect-with-cars](https://github.com/whalesesy/leet-code-tasks/tree/master/3034-points-that-intersect-with-cars) |
 <!---LeetCode Topics End-->
